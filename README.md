@@ -32,6 +32,11 @@ python3 app.py
 
 ![Page1](./assets/page1.png)
 
+1. Provide the input of the pdb file (eg:- 4dfr.pdb)
+2. Enter the IDs of the amino acid (eg:- 1,2,5)
+3. Enter the threshold of the Alanines you require (eg:- 1)
+4. By clicking 'Process', you will be downloading the pdb file connecting all the active site amino acids.
+
 ## Requirements
 
 1. <b> Packages </b> :
@@ -40,4 +45,4 @@ python3 app.py
 * Pip == 22.0.2
 * python == 3.10.12
 
-2. <b> OS Systems </b> :  It supports all OS systems (Windows, MACOS, and Linux).
+2. <b> OS Systems </b>:  It supports all OS systems (Windows, MACOS, and Linux).
