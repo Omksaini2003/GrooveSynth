@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title style="color: #888;">GrooveSynth</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Serif+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'DM Mono', monospace;
+            background-image: url('https://images7.alphacoders.com/869/869699.jpg');
+            background-size: 100% 100%;
+            /* Fill the webpage completely */
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Make the body take up the entire viewport height */
+            margin: 0;
+            /* Remove default margin */
+        }
+
+        .form-box {
+            width: 50%;
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Adjust the opacity here */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            font-family: 'DM Mono', monospace;
+            /* Change the font here */
+        }
+
+        h1 {
+            font-family: 'Lobster', sans-serif;
+            color: #424242;
+            font-size: 2.3em;
+            /* Greyish color for the title */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            color: #333;
+            /* Dark color for labels */
+        }
+
+        input[type="file"] {
+            margin-top: -10px;
+            margin-bottom: 5px;
+            margin-left: 35%;
+            font-size: 1.2em;
+
+        }
+
+        textarea {
+            width: 100%;
+            height: 50px;
+            /* Decrease the height of the textarea */
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            margin-top: -10px;
+            margin-bottom: 5px;
+            margin-left: 40%;
+            font-size: 1.5em;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        button:hover {
+            background-color: #42a547;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-box">
+        <h1>GrooveSynth</h1><br>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <label for="input_file">Input File (PDB):</label>
+            <input type="file" id="input_file" name="input_file" accept=".pdb"><br><br>
+            <label for="id_array">ID Array:</label>
+            <input type="text" id="id_array" name="id_array"><br><br>
+            <label for="threshold">Threshold:</label>
+            <input type="text" id="threshold" name="threshold"><br><br>
+            <button type="submit">Process</button>
+        </form>
+    </div>
+</body>
+
+</html>
