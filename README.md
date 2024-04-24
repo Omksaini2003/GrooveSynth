@@ -21,7 +21,12 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-3.  ...
+3.  To Run this flask app:
+
+```
+python3 app.py
+```
+   
 
 ## How to use
 
