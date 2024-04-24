@@ -1,5 +1,7 @@
 # GrooveSynth
 
+![Prot1-image](./assets/prot1.jpg)
+
 ## About the repo
 
 GrooveSynth is a tool that generates active sites pdb consisting of all the provided IDs of the amino acid from the parent protein chain.
