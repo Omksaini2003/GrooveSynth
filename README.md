@@ -30,7 +30,7 @@ python3 app.py
 
 ## How to use
 
-...
+![Page1](./assets/page1.png)
 
 ## Requirements
 
