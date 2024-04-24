@@ -4,7 +4,7 @@
 
 ## About the repo
 
-GrooveSynth is a tool that generates active sites structure that mimicks the actual active sites of the protein.
+GrooveSynth is a tool that generates structure pdb that mimicks the actual active binding site of the protein.
 
 ## How to install 
 
