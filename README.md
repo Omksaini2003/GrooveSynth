@@ -34,4 +34,12 @@ python3 app.py
 
 ## Requirements
 
-...
+1. Packages:
+
+* Flask == 3.0.3
+* Pip == 22.0.2
+* python == 3.10.12
+
+2. OS Systems:
+
+It supports all OS systems (Windows, MACOS, and Linux).
