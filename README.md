@@ -4,7 +4,7 @@
 
 ## About the repo
 
-GrooveSynth is a tool that generates active sites pdb consisting of all the provided IDs of the amino acid from the parent protein chain.
+GrooveSynth is a tool that generates active sites structure that mimicks the actual active sites of the protein.
 
 ## How to install 
 
@@ -33,9 +33,9 @@ python3 app.py
 ![Page1](./assets/page1.png)
 
 1. Provide the input of the pdb file (eg:- 4dfr.pdb)
-2. Enter the IDs of the amino acid (eg:- 1,2,5)
-3. Enter the threshold of the Alanines you require (eg:- 1)
-4. By clicking 'Process', you will be downloading the pdb file connecting all the active site amino acids.
+2. Enter the serial number (ID) of the active amino acid sites (that are responsible for binding ligand) (eg:- 1,2,5)
+3. Enter the threshold distance (Angstrom) (eg:- 1.4)
+4. By clicking 'Process', you will be downloading the pdb file connecting all the active site amino acids optimally and mimicking the binding site of the protein.
 
 ## Requirements
 
