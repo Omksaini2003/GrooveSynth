@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title style="color: #888;">PDB Groove</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url('https://images7.alphacoders.com/869/869699.jpg');
+            background-size: 100% 300%; /* Fill the webpage completely */
+            background-repeat: no-repeat;
+        }
+        .form-box {
+            width: 50%;
+            margin: 0 auto;
+            background-color: rgba(65, 10, 93, 0.8); /* Adjust the opacity here */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            font-family: 'YouTube Noto', sans-serif; /* Change the font here */
+        }
+        h1 {
+            color: #888; /* Greyish color for the title */
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: white; /* Change label text color to white */
+        }
+        input[type="file"] {
+            margin-top: -10px; /* Shift the file input button up */
+            margin-bottom: 5px; /* Shift the file input button */
+        }
+        textarea {
+            width: 100%;
+            height: 50px; /* Decrease the height of the textarea */
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>PDB Groove</h1>
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+        <div class="form-box">
+            <label for="pdb">Choose a PDB file:</label>
+            <br> <!-- Line break for the "Choose file" button -->
+            <input type="file" id="pdb" name="pdb" accept=".pdb">
+            <label for="residues">Enter residue numbers:</label>
+            <textarea id="residues" name="residues" rows="2" cols="50"></textarea>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
+
